@@ -5,7 +5,7 @@ Tapjacking is the combination of “tap” and “jacking” and, as the term su
 
 Using social engineering an attacker can develop a malicious app that exploits tapjacking and tricks the victim into doing dispositive actions on vulnerable applications.
 
-This plugin prevents tapjacking attacks by setting the [setFilterTouchesWhenObscured] (https://developer.android.com/reference/android/view/View#setFilterTouchesWhenObscured(boolean)) to true on the main WebView.
+This plugin prevents tapjacking attacks by setting the [setFilterTouchesWhenObscured](https://developer.android.com/reference/android/view/View#setFilterTouchesWhenObscured(boolean)) to true on the main WebView.
 In this way Android will discard touches when the WebView is obscured by another visible window. 
 
 
