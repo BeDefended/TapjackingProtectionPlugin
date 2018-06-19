@@ -1,0 +1,28 @@
+{
+  "name": "cordova-plugin-tapjackingprotection",
+  "version": "0.1.0",
+  "description": "Secures your app from Tapjacking attacks under Android.",
+  "cordova": {
+    "id": "cordova-plugin-tapjackingprotection",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bedefended/TapjackingProtectionPlugin.git"
+  },
+  "keywords": [
+    "security",
+	"tapjacking",
+    "cordova",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "BeDefended (https://www.bedefended.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bedefended/TapjackingProtectionPlugin/issues"
+  },
+  "homepage": "https://github.com/bedefended/TapjackingProtectionPlugin#readme"
+}

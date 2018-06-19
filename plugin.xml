@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android" id="cordova-plugin-tapjackingprotector" version="0.1.0">
+
+	<name>TapjackingProtectionPlugin</name>
+	<description>Secures your Cordova app from Tapjacking attacks under Android.</description>
+	<license>MIT</license>
+	<platform name="android">
+
+		<config-file parent="/*" target="res/xml/config.xml">
+		  <feature name="TapjackingProtectionPlugin">
+			<param name="android-package" value="com.bedefended.tapjackingprotector.TapjackingProtectionPlugin"/>
+			<param name="onload" value="true" />
+		  </feature>
+		</config-file>
+
+		<source-file src="src/android/TapjackingProtectionPlugin.java" target-dir="src/com/bedefended/tapjackingprotection"/>
+	</platform>
+
+</plugin>
