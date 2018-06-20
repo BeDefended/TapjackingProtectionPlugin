@@ -12,7 +12,7 @@ In this way Android will discard touches when the WebView is obscured by another
 Installation
 ------------
 
-For Cordova:
+For Cordova apps:
 
 1. To add this plugin: `cordova plugin add cordova-plugin-tapjackingprotection` 
 2. To remove this plugin: `cordova plugin remove cordova-plugin-tapjackingprotection` 
