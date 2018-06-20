@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-tapjackingprotection",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Secures your app from Tapjacking attacks under Android.",
   "cordova": {
     "id": "cordova-plugin-tapjackingprotection",
